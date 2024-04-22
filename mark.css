@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(223, 9, 9);
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 2pc;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+#navbar ul li{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-inline: -10pc;
+    color: #fcf8f8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+#navbar ul li a:hover{
+    color: rgb(19, 122, 114);
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.details img{
+    width: 50%;
+    height: 80vh;
+
+    border-radius: 10px;
+}
+.info{
+    padding-left: 2pc;
+    padding-right: 1pc;
+    text-align: justify;
+}
+.info h2{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info p:first-of-type{
+    padding-top: 10px;
+}
+.info p{
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card{
+    margin-inline: 10px;}
+.card h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card p{
+    padding-left: 1pc;
+    padding-right: 1pc;
+    text-align: justify;
+}
+
+
+.footer{
+    text-align: center;
+    padding-top: 2rem;
+    background-color: #621ac0;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer a{
+    color: white;
+    
+}
